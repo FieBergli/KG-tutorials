@@ -1,0 +1,20 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://cookbook.org/boiled_egg> a <http://cookbook.org/Breakfast> .
+
+<http://cookbook.org/cake> a <http://cookbook.org/Dessert> .
+
+<http://cookbook.org/coffee> a <http://cookbook.org/Drink> .
+
+<http://cookbook.org/ice_cream> a <http://cookbook.org/Dessert> ;
+    rdfs:label "Ice Cream" .
+
+<http://cookbook.org/napolian> a <http://cookbook.org/Pizza> ;
+    rdfs:label "Napolian" .
+
+<http://cookbook.org/olives> a <http://cookbook.org/Starter> .
+
+<http://cookbook.org/Pizza> rdfs:subClassOf <http://cookbook.org/Dinner> .
+
+<http://cookbook.org/Starter> rdfs:subClassOf <http://cookbook.org/Meal> .
+
