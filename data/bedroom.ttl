@@ -1,0 +1,14 @@
+@prefix : <http://example.org/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+
+:Bedroom a owl:Class ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:onProperty :contains ;
+            owl:someValuesFrom :Bed ] .
+
+:Room a owl:Class .
+
+:Bed a owl:Class .
+
+:contains a owl:ObjectProperty .
+
