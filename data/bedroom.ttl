@@ -1,14 +1,16 @@
 @prefix : <http://example.org/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
 :Bedroom a owl:Class ;
+    rdfs:subClassOf :Room ;
     owl:equivalentClass [ a owl:Restriction ;
             owl:onProperty :contains ;
             owl:someValuesFrom :Bed ] .
 
-:Room a owl:Class .
-
 :Bed a owl:Class .
+
+:Room a owl:Class .
 
 :contains a owl:ObjectProperty .
 
