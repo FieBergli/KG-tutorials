@@ -172,4 +172,3 @@ hi:InteractionMethod a owl:Class .
 hi:Scenario a owl:Class .
 
 hi:Capability a owl:Class .
-
