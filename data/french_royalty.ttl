@@ -1,0 +1,2 @@
+@prefix rel: <http://example.org/royals/relation/> .
+
