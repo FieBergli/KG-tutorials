@@ -4,3 +4,4 @@ GoT*
 *.pkl
 *.ipynb_checkpoints*
 *.DS_Store
+data/french_royalty.npz
